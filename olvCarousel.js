@@ -64,10 +64,10 @@ carousel("next");
 //The frequency of page refreshing, uncomment bottom line and set the time of Page Refreshing (ms)
 //var pagetimeRefresh = 12000;
 
-setInterval( document.getElementById('next').onclick = function () {
-    carousel("next");
-}, pagetimeRefresh/3);
+//setInterval( document.getElementById('next').onclick = function () {
+    //carousel("next");
+//}, pagetimeRefresh/3);
 
-setInterval(function(){
-    location.reload();
-}, pagetimeRefresh);
+//setInterval(function(){
+    //location.reload();
+//}, pagetimeRefresh);
